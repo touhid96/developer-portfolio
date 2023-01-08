@@ -6,13 +6,14 @@
 
 .hd {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png), url(../images/developer.png) ;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right, left ;
+    background-position: bottom right, left;
 }
+
 /* header and navigation style  */
 
-   
+
 nav {
 
     display: flex;
@@ -64,7 +65,7 @@ nav li {
     font-style: normal;
     font-weight: 700;
     font-size: 85px;
-    
+
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
@@ -77,7 +78,7 @@ nav li {
     font-size: 85px;
     margin-bottom: 20px;
     margin-top: 5px;
-    
+
 }
 
 .banner-des {
@@ -92,19 +93,19 @@ nav li {
 
 /* main */
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-section{
-    margin-top: 130px ;
+section {
+    margin-top: 130px;
 }
 
 /* about */
 
 
-.about{
+.about {
     text-align: center;
     margin-top: 130px;
     background: #FFF8F3;
@@ -112,7 +113,7 @@ section{
     padding: 130px 150px;
 }
 
-.section-des{
+.section-des {
     font-weight: 400;
     font-size: 18px;
     color: #757575;
@@ -121,28 +122,26 @@ section{
 
 }
 
-.section-title{
- text-align: center;
- margin-bottom: 30px;
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-.about-info-comtainer{
- display: flex;
- justify-content: space-around;
+.about-info-comtainer {
+    display: flex;
+    justify-content: space-around;
 }
 
-.about-info{
-    
+.about-info {}
 
-
-}
-.info-d{
+.info-d {
     font-size: 20px;
     color: #757575;
 
 
 }
-.info-dp{
+
+.info-dp {
     font-size: 20px;
     color: #474747;
 
@@ -154,23 +153,25 @@ section{
 
 
 
-.section-title{
+.section-title {
     font-size: 35px;
     color: #181818;
 }
 
-.skill-container{
+.skill-container {
     display: flex;
     margin-top: 170Px;
-    
+
 }
-.skill{
+
+.skill {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-    border-radius: 5px; 
-    padding: 30px;   
+    border-radius: 5px;
+    padding: 30px;
 }
-.skill-title{
+
+.skill-title {
     font-size: 20px;
     color: #181818;
     margin-top: 30px;
@@ -178,11 +179,91 @@ section{
 
 
 }
-.skill-description{
-   font-size: 16px;
-   color: #757575;
+
+.skill-description {
+    font-size: 16px;
+    color: #757575;
 }
 
+/* Resume */
+.resume-content {
+    display: flex;
+    gap: 71px;
+}
+
+.sume {
+
+    text-align: center;
+    margin-bottom: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #757575;
+
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #757575;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 
+}
 
+.resume-buttom {
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+/* style contract */
+
+.contract {
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    
+    padding: 130px 200px;
+}
+
+.contract .section-ttitle {
+    text-align: left;
+}
+
+.contract input, textarea{
+    
+    margin-top: 24px;
+    border: 0;
+    width: 100%
+    padding 30px;
+
+}
+.description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contract .a{
+    text-decoration: none;
+
+}
+.ankor{
+    text-decoration: 0;
+    gap: 10px;
+}
